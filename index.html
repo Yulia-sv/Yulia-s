@@ -5,29 +5,47 @@
     <title>Yulia</title>
     <meta charset="UTF-8" name="author" content="Yulia Svyrydova">
     <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <!-- Adding the font -->
+    <link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Updock&display=swap"
+        rel="stylesheet">
 </head>
-<header>
-    <ul>
-        <li><a href="index.html">About me</a></li>
-        <li><a href="pages/gallery.html">Gallery</a></li>
-        <li><a href="pages/contact.html">Contacts</a></li>
-    </ul>
-</header>
 
-<body>
+<body id="top">
+    <header>
+        <ul class="menu">
+            <li><a href="index.html">About me</a></li>
+            <li><a href="pages/gallery.html">Gallery</a></li>
+            <li><a href="pages/contact.html">Contacts</a></li>
+        </ul>
+    </header>
+
     <h1>About me</h1>
-    <img src="photos/me.jpg" alt="my photo" width="20%">
-    <p>My name is Yulia. Now I'm a PCB Engineer, but I like taking photos and creating pretty shots. You can see my
-        education below. On the <a href="pages/gallery.html">gallery</a> page there are
-        photos made by me. </p>
-    <hr>
+
+    <div class="aboutme">
+        <img src="photos/me.jpg" alt="my photo">
+        <div>
+            <p>
+                My name is Yulia, and I am a passionate PCB Engineer with a keen interest in technology and innovation.
+                Alongside my engineering career, I have always had a love for photography, and over the years, I’ve
+                honed my skills in capturing beautiful moments and creating visually stunning shots. Photography is more
+                than just a hobby for me; it's a way to express my creativity and connect with the world in a different
+                way. You can see more of my educational background and experience below, which has shaped my
+                professional journey. Additionally, on the <a href="pages/gallery.html">gallery</a> page, you'll find a
+                collection of photos that I've taken — each one tells a unique story and reflects my personal
+                perspective on the world around me. </p>
+        </div>
+    </div>
+
     <h2>Education</h2>
+
     <h3>Manufacturing and Technology for Publishing and Printing. Printing Technology (Master's Degree)</h3>
-    <p><i>09/2020-12/2021</i></p>
-    <p>Kharkiv National University of Radio Electronics</p>
-    <p>Faculty of Computer Science</p>
+    <p class="add-info">09/2020-12/2021</p>
+    <p class="add-info">Kharkiv National University of Radio Electronics</p>
+    <p class="add-info">Faculty of Computer Science</p>
     <dl>
-        <dt><b>Basic Studies</b><dt>
+        <dt><b>Basic Studies</b>
+        <dt>
         <dd>Organization and Management of Printing Production;</dd>
         <dd>Print Products Quality Evaluation;</dd>
         <dd>Development and Simulation of Publishing Technological Processes;</dd>
@@ -36,9 +54,9 @@
     </dl>
 
     <h3>Manufacturing and Technology for Publishing and Printing (Bachelor's Degree)</h3>
-    <p><i>09/2016-06/2020</i></p>
-    <p>Kharkiv National University of Radio Electronics</p>
-    <p>Faculty of Computer Science</p>
+    <p class="add-info">09/2016-06/2020</p>
+    <p class="add-info">Kharkiv National University of Radio Electronics</p>
+    <p class="add-info">Faculty of Computer Science</p>
     <dl>
         <dt><b>Basic Studies</b></dt>
         <dd>Basics of Metrology, Standardization and Quality;</dd>
@@ -51,13 +69,20 @@
         <dd>Electrical engineering;</dd>
         <dd>Technology and Equipment of Printing Processes.</dd>
     </dl>
-    <hr>
+
+
+
+    <!--<div>
     <p>If you are interested in getting more information about the University I've graduated, visit the web-site below.
     </p>
 
     <iframe src="https://nure.ua/" frameborder="0" width="100%" height="500px">fff</iframe>
+</div> -->
 
-    <h4><a href="#top">Back to top</a></h4>
+    <hr class="footer">
+    <p class="footer"> &#169; Yuliia Svyrydova, 2024</p>
+
+    <h4><a href="#top" class="top-btn">&#8593;</a></h4>
 </body>
 
 </html>
